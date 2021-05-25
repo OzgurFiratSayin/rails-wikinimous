@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Editting the article</h1>
+  <%= form_for(@article) do |f| %>
+    <%= f.label :title %> <br>
+    <%= f.text_field :title, :size => "68" %> <br> <br>
+    <%= f.label :content %> <br>
+    <%= f.text_area :content, :size => "70x5" %> <br> <br>
+    <%= f.submit %>
+  <% end %>
+</div>

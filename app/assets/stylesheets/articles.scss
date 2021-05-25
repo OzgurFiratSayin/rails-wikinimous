@@ -1,0 +1,52 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: #d1cfcf;
+}
+
+.bar > h1, p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.bar p {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #2978b5;
+}
+
+.container {
+    width: 600px;
+
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 154, 154);
+}
+
+.article {
+    background-color: #d1cfcf;
+   
+}
+
+body h2, p {
+    padding: 3px;
+    margin: 5px;
+}
+
+
+.article > p {
+
+}
+
+.container h1 {
+
+}
