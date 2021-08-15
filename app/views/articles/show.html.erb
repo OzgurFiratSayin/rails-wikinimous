@@ -3,4 +3,5 @@
   <p><%= @article.content %></p>
   <p><%= link_to "Edit this article", edit_article_path  %></p>
   <p><%= link_to 'Delete this article', article_path(@article), method: :delete, data: {confirm: 'are you sure?'} %></p>
+  <p><%= link_to "Back to articles", articles_path  %></p>
 </div>
